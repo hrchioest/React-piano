@@ -7,18 +7,17 @@ function App() {
   const [estaSonando, setEstaSonando] = useState("");
   
   const sonidoNota =(nota)=>{
+    setEstaSonando(nota.nombre);
     const sonido = new Audio(nota.link);
         sonido.play();
+    setTimeout(() => {
+      setEstaSonando("");
+    }, 350);
   }
 
   const handleClick = (nota) => {
-    setEstaSonando(nota.nombre);
-    sonidoNota(nota)
-    setTimeout(() => {
-      setEstaSonando("");
-    }, 250);
+    sonidoNota(nota)    
   };  
-
 
   const handleKeyPress = (event) =>{
     const nota =notas.find(nota=>nota.key===event.key)
@@ -30,18 +29,17 @@ function App() {
     document.addEventListener('keypress', handleKeyPress);
 
   },[])
- 
 
   return (
     <div className="App">
       <div className="titulo">
         <h1><span role="img" aria-label="img">🎶 🎹 </span>Piano con React <span role="img" aria-label="img">🎶</span></h1>
         <h2>
-          Hecho con <span role="img" aria-label="img">❤️</span> por Rocío
+          Hecho con <span role="icono" aria-label="img">❤️</span> por Rocío gracias a Ada ITW
         </h2>
-        <h3>Esta sonando la nota {estaSonando}</h3>
+        <p> Nota: Se puede tocar con click o presionando los números desde el 1 al 7 por cada nota 😉</p>
         <div 
-          className="esta-sonando">{estaSonando && `suena ${estaSonando}`}</div>
+          className="esta-sonando">{estaSonando && `Suena la nota " ${estaSonando} "`}</div>
       </div>
       <div className="contenedor">
         {notas.map((nota, i) => (
