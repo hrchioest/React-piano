@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/React-piano/static/css/main.1115d556.chunk.css",
+    "main.js": "/React-piano/static/js/main.a631b6ce.chunk.js",
+    "main.js.map": "/React-piano/static/js/main.a631b6ce.chunk.js.map",
+    "runtime-main.js": "/React-piano/static/js/runtime-main.8b100038.js",
+    "runtime-main.js.map": "/React-piano/static/js/runtime-main.8b100038.js.map",
+    "static/js/2.937963ba.chunk.js": "/React-piano/static/js/2.937963ba.chunk.js",
+    "static/js/2.937963ba.chunk.js.map": "/React-piano/static/js/2.937963ba.chunk.js.map",
+    "index.html": "/React-piano/index.html",
+    "precache-manifest.639e615001977303bc73c764ec12377f.js": "/React-piano/precache-manifest.639e615001977303bc73c764ec12377f.js",
+    "service-worker.js": "/React-piano/service-worker.js",
+    "static/css/main.1115d556.chunk.css.map": "/React-piano/static/css/main.1115d556.chunk.css.map",
+    "static/js/2.937963ba.chunk.js.LICENSE.txt": "/React-piano/static/js/2.937963ba.chunk.js.LICENSE.txt",
+    "static/media/do.wav": "/React-piano/static/media/do.18fd3f6f.wav",
+    "static/media/fa.wav": "/React-piano/static/media/fa.a787534a.wav",
+    "static/media/la.wav": "/React-piano/static/media/la.10af03f3.wav",
+    "static/media/mi.wav": "/React-piano/static/media/mi.1f26c778.wav",
+    "static/media/re.wav": "/React-piano/static/media/re.217b943a.wav",
+    "static/media/si.wav": "/React-piano/static/media/si.70924435.wav",
+    "static/media/sol.wav": "/React-piano/static/media/sol.785a33d2.wav"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8b100038.js",
+    "static/js/2.937963ba.chunk.js",
+    "static/css/main.1115d556.chunk.css",
+    "static/js/main.a631b6ce.chunk.js"
+  ]
+}
